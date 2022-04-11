@@ -31,6 +31,7 @@ def DeltaMorph(n,m,passi):
        aux = aux + z       
   return aux 
     
+#use DeltaMorph(n,m,[]) to get all Delta-morphisms between Delta(n) and Delta(m)
   
 def dDeltaMorph(n):
  aux = DeltaMorph(n,n+1,[])
